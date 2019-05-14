@@ -1,7 +1,7 @@
 # nengi-seams-prototype
 A very messy prototype of server stitching/seams/grids/multi-instance. Players can see entities in real-time that are across the server boundary. This is accomplished via the instances using nengi bots to see each other's game state (a bot is like a client).
 
-This current prototype creates two entirely separate game instances as if they were two different games. This is for development purposes so that defects can be intentionally created in one game instance at a time to see how it affects the other. A true version of a seam implementation would only have a single type of GameInstance which would be passed information about its area and its borders.
+This current prototype creates two entirely separate game instances as if they were two different games. *This is deliberately broken.* This is for development purposes so that defects can be intentionally created in one game instance at a time to see how it affects the other. A true version of a seam implementation would only have a single type of GameInstance which would be passed information about its area and its borders.
 
 GameInstance1 is concerned with the area from 0,0 to 1000, 1000.  (The grid area)
  
